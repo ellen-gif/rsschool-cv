@@ -1,23 +1,23 @@
-# **GROMOMVA ELENA**
-#### Future Front-end developer <sub>hopefully</sub>
+# **GROMOVA ELENA**
+##### Future Front-end developer <sub>hopefully</sub>
 
 
-#### About me
+#### ABOUT ME
 
 A diligent and enthusiastic linguist with 4+ years experience in dealing with languages. I'm a team worker with a ~~towards-everyone~~ friendly approach. With a sence of humour!
 
 
-#### Education 
+#### EDUCATION
 
 A bachelor's degree at MSLU 
 
 
-#### Work experience
+#### WORK EXPERIENCE
 
 [CV project](https://ellen-gif.github.io/rsschool-cv/) 
 
 
-#### Soft skills
+#### SOFT SKILLS
 
 * communicative
 * cheerful
