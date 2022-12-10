@@ -14,7 +14,7 @@ A bachelor's degree at MSLU
 
 #### WORK EXPERIENCE
 
-[CV project](https://ellen-gif.github.io/rsschool-cv/) 
+[CV project](https://ellen-gif.github.io/rsschool-cv/cv) 
 
 
 #### SOFT SKILLS
