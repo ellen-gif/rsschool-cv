@@ -9,12 +9,12 @@ A diligent and enthusiastic linguist with 4+ years experience in dealing with la
 
 #### EDUCATION
 
-A bachelor's degree at MSLU 
+A bachelor's degree at MSLU
 
 
 #### WORK EXPERIENCE
 
-[CV project](https://ellen-gif.github.io/rsschool-cv/cv) 
+[CV project](https://ellen-gif.github.io/rsschool-cv/cv)
 
 
 #### SOFT SKILLS
