@@ -5,10 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
  html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
     font-size: 18px;
   }
- 
+
 :root{
     --primary-color: #101f2c;
     --text-color: #201f20;
@@ -40,8 +40,8 @@ img {
     font-weight: 300;
     list-style-type: none;
 }
-     /* layout     The display CSS property sets whether 
-an element is treated as a block or inline element and 
+     /* layout     The display CSS property sets whether
+an element is treated as a block or inline element and
 the layout used for its children, such as flow layout, grid or flex.
 */
 
@@ -49,11 +49,11 @@ the layout used for its children, such as flow layout, grid or flex.
     max-width: 1000px;
     width: 90%;
     margin: 0 auto;
-    display: grid;                  
+    display: grid;
     padding: 10px 30px 20px 30px;
     background-color: rgb(230, 158, 26);
     //border-radius: 20px;
-} 
+}
 
 @media (max-width: 768px)
     .container {
@@ -62,7 +62,6 @@ the layout used for its children, such as flow layout, grid or flex.
 .footer {
     margin: 0 auto;
     padding: 10px;
-      
 }
 
                                 /* profile*/
@@ -82,14 +81,14 @@ the layout used for its children, such as flow layout, grid or flex.
     max-width: 50px;
     width: 50px;
     border-radius: 100px;
-    text-align: right;   
+    text-align: right;
 }
 .profile-name {
     font-weight: 200;
     //color: var(--blocks-color);
     text-transform: uppercase;
     font-size: clamp(2rem, 4vw, 6rem);
-    
+
 }
 .profile-title {
     background-color: var(--blocks-color);
@@ -109,11 +108,11 @@ the layout used for its children, such as flow layout, grid or flex.
     max-width: 1000px;
     width: 90%;
     margin: 0 auto;
-    display: grid;                  
+    display: grid;
     padding: 30px 30px;
     background-color: rgb(216, 215, 215);
-    //border-radius: 20px;    
-} 
+    //border-radius: 20px;
+}
 .main-container .heading {
     color: var(--primary-color);
     background-color: var(--background-color);
@@ -127,7 +126,7 @@ the layout used for its children, such as flow layout, grid or flex.
     margin-left: 1rem;
     line-height: 1.5;
 }
-.skill-list { 
+.skill-list {
     list-style-type: none;
 }
 .nav-list {
@@ -161,29 +160,26 @@ the layout used for its children, such as flow layout, grid or flex.
 }
 .nav a {
     color: #829985;
-    text-decoration: none;  
+    text-decoration: none;
     transition: color 0.5s;
   }
   .nav a:hover {
     color: #4d2323;
   }
-  
   //.main-container {
     display: flex;
     flex-wrap: wrap;
   }
-  
   .section {
     width: 70%;
   }
   .link {
     text-decoration: none;
-    color: #13686e;
+    color: #0300cf;
     transition: color 0.5s;
   }
-  
   .link:hover {
-    color: #0044ff;
+    color: #ffa600;
   }
   .footer {
     display: flex;
@@ -194,4 +190,12 @@ the layout used for its children, such as flow layout, grid or flex.
     margin-top: 20px;
     margin-left: 10px;
     font-size: ;
+  }
+  .link1  {
+    text-decoration: none;
+    color: #0300cf;
+    transition: color 0.5s;
+  }
+  .link1:hover {
+    color: #ffffff;
   }
