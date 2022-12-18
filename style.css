@@ -1,95 +1,197 @@
-html, body {
-    
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    }
-    h1 {
-        font-size: 60px;
-    }
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
-  }
-html {
-    width: 100%;
-    height: 100vh;
-    background-color: #d4e4e2;
-    background-size: cover;
-    background-position: center;
-  }
-
-.logo {
-    width: 50px;
-    margin: 10px 10px;
 }
-
-.section-title {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #080200;
-}
-.footer {
-    border: 1px solid red;
-    
-}
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-.nav {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    padding: px 0;
-    line-height: 30px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-.picture {
-    width: 90px;
-    cursor: pointer;
-    margin: 10px 10px 0px 10px;
- }
- .nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
- }
  html {
     scroll-behavior: smooth; 
+    font-size: 18px;
   }
-  .main-container {
-    border: 5px solid;
-  }
-  .section {
-    width: 50%;
-  }
-  .main-container:first-child {
-    font-size: 20px
-    
-  }
-  @media (max-width: 768px) {
-    .section {
+ 
+:root{
+    --primary-color: #101f2c;
+    --text-color: #201f20;
+    --blocks-color:  rgb(231, 231, 231);
+    --background-color: rgb(230, 158, 26);
+}
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--blocks-color);
+    color: #101f2c;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+                                     /* Common styles */
+a{
+    text-decoration: none;
+    color: #101f2c;
+}
+img {
+    width: 100%;
+}
+.description {
+    margin-top: 10px;
+    font-weight: 300;
+    list-style-type: none;
+}
+     /* layout     The display CSS property sets whether 
+an element is treated as a block or inline element and 
+the layout used for its children, such as flow layout, grid or flex.
+*/
+
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;                  
+    padding: 10px 30px 20px 30px;
+    background-color: rgb(230, 158, 26);
+    //border-radius: 20px;
+} 
+
+@media (max-width: 768px)
+    .container {
       width: 100%;
     }
+.footer {
+    margin: 0 auto;
+    padding: 10px;
+      
+}
+
+                                /* profile*/
+
+.profile-container {
+    display: flex;
+    gap: 1rem;
+    padding-left: 40px;
+}
+.profile-profileImg {
+    max-width: 250px;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #444;
+}
+.logo {
+    max-width: 50px;
+    width: 50px;
+    border-radius: 100px;
+    text-align: right;   
+}
+.profile-name {
+    font-weight: 200;
+    //color: var(--blocks-color);
+    text-transform: uppercase;
+    font-size: clamp(2rem, 4vw, 6rem);
+    
+}
+.profile-title {
+    background-color: var(--blocks-color);
+    margin-bottom: 23px;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.heading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    color: var(--blocks-color);
+}
+.main-container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;                  
+    padding: 30px 30px;
+    background-color: rgb(216, 215, 215);
+    //border-radius: 20px;    
+} 
+.main-container .heading {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+                         /* SKILLS*/
+.contact-list {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    line-height: 1.5;
+}
+.skill-list { 
+    list-style-type: none;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    color: var(--blocks-color);
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+.education-years {
+    font-weight: 300;
+    padding: 0 0 10px 0;
+    font-size: small;
+}
+.education-degree {
+    font-weight: 300;
+}
+.group-1 {
+    padding-left: 40px;
+}
+.skills {
+    padding-left: 40px;
+}
+.education {
+    padding-left: 40px;
+}
+.working-experience {
+    padding-left: 40px;
+}
+.nav a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .nav a:hover {
+    color: #4d2323;
+  }
+  
+  //.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 70%;
   }
   .link {
     text-decoration: none;
-    color: #829985;
+    color: #13686e;
     transition: color 0.5s;
   }
   
   .link:hover {
-    color: #0a0200;
+    color: #0044ff;
+  }
+  .footer {
+    display: flex;
+    text-align: right;
+    padding-left: 70px;
+  }
+  .year {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: ;
   }
